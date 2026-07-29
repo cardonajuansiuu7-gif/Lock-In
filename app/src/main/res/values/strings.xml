@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Locked In</string>
+    <string name="accessibility_service_description">Locked In necesita este permiso para detectar cuándo abrís una app bloqueada y devolverte a la lista de tareas.</string>
+</resources>
