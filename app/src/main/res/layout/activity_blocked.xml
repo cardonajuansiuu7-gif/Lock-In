@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_sky"
+        android:contentDescription="Fondo" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#77000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <FrameLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp">
+
+            <View
+                android:id="@+id/glow"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/glow_circle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="🔒"
+                android:textSize="56sp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Esta app está bloqueada"
+            android:textColor="@color/text_light"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Terminá tu lista de tareas para desbloquearla"
+            android:textColor="@color/sky_light_pink"
+            android:textSize="16sp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnGoToTasks"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_marginTop="26dp"
+            android:paddingStart="28dp"
+            android:paddingEnd="28dp"
+            android:background="@drawable/bg_button_primary"
+            android:text="Ir a mis tareas"
+            android:textColor="@color/text_light"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</FrameLayout>
