@@ -1,0 +1,14 @@
+<resources>
+    <color name="ic_launcher_background">#3B2E7A</color>
+
+    <color name="sky_deep_blue">#1B1F5C</color>
+    <color name="sky_purple">#4A3B8C</color>
+    <color name="sky_pink">#E88FB0</color>
+    <color name="sky_light_pink">#F6C9C9</color>
+    <color name="sun_glow">#FFF3D6</color>
+    <color name="cloud_white">#F5EFEA</color>
+    <color name="cloud_shadow">#2E2A55</color>
+    <color name="accent_coral">#FF7E9E</color>
+    <color name="card_bg">#33FFFFFF</color>
+    <color name="text_light">#FFFFFF</color>
+</resources>
