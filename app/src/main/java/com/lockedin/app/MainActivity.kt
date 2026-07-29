@@ -57,13 +57,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.btnAccessibility).setOnClickListener {
-            startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
-            Toast.makeText(
-                this,
-                "Buscá 'Locked In' en la lista y activalo",
-                Toast.LENGTH_LONG
-            ).show()
-        }
+    startActivity(Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS))
+    Toast.makeText(this, "Activá también 'Locked In' acá para ocultar notificaciones", Toast.LENGTH_LONG).show()
+}
 
         findViewById<Button>(R.id.btnLock).setOnClickListener {
             val blocked = Prefs.getBlockedApps(this)
